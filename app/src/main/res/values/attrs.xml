@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomView">
+        <attr name="quantity" format="integer"/>
+        <attr name="color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="CustomViewGroup">
+        <attr name="count" format="integer"/>
+    </declare-styleable>
+</resources>
