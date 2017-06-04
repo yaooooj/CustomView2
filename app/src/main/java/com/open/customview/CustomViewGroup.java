@@ -19,7 +19,7 @@ import java.util.List;
 
 public class CustomViewGroup extends ViewGroup {
     private int CircleCount;
-    private int mLeft;
+    private float mLeft;
     private int mHorizotationSpace = 10;
     private int Radius = 10;
     private float mSetHeight;
@@ -83,7 +83,7 @@ public class CustomViewGroup extends ViewGroup {
             }else {
                 mPaint.setColor(Color.BLUE);
             }
-            int x = Spot.get(i).getWidth();
+            float x = Spot.get(i).getWidth();
             float y = Spot.get(i).getHeight();
             canvas.drawCircle(getScrollX() + x,y,Radius,mPaint);
         }

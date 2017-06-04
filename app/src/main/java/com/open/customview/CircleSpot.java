@@ -5,19 +5,19 @@ package com.open.customview;
  */
 
 public class CircleSpot {
-    private int mWidth;
+    private float mWidth;
     private float mHeight;
 
-    public CircleSpot(int width, float height) {
+    public CircleSpot(float width, float height) {
         mWidth = width;
         mHeight = height;
     }
 
-    public int getWidth() {
+    public float getWidth() {
         return mWidth;
     }
 
-    public void setWidth(int width) {
+    public void setWidth(float width) {
         mWidth = width;
     }
 

@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    tools:context="com.open.customview.MainActivity">
-    <com.open.customview.CustomViewGroup
-        android:layout_width="match_parent"
-        android:layout_height="200dp">
+    android:orientation="horizontal">
+   <com.open.customview.CircleViewGroup
+       android:layout_width="match_parent"
+       android:layout_height="230dp">
 
-    </com.open.customview.CustomViewGroup>
+   </com.open.customview.CircleViewGroup>
 
 </LinearLayout>
